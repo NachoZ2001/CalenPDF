@@ -119,9 +119,9 @@
             textBoxPeriodoInforme.ForeColor = Color.White;
             textBoxPeriodoInforme.Location = new Point(31, 86);
             textBoxPeriodoInforme.Name = "textBoxPeriodoInforme";
-            textBoxPeriodoInforme.Size = new Size(127, 18);
+            textBoxPeriodoInforme.Size = new Size(198, 18);
             textBoxPeriodoInforme.TabIndex = 6;
-            textBoxPeriodoInforme.Text = "Periodo";
+            textBoxPeriodoInforme.Text = "Periodo (solo mes, ejemplo: 08)";
             // 
             // textBoxRutaExcel
             // 

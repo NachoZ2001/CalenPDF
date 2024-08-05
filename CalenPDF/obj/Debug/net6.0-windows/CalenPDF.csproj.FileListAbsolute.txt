@@ -40,7 +40,6 @@ C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenP
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.AssemblyInfoInputs.cache
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.AssemblyInfo.cs
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.csproj.CoreCompileInputs.cache
-C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.csproj.CopyComplete
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.dll
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\refint\CalenPDF.dll
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.pdb
@@ -52,3 +51,5 @@ C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\bin\Debug\net6.0-windows\runtim
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\bin\Debug\net6.0-windows\runtimes\tizen-x86\native\libSkiaSharp.so
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.sourcelink.json
+C:\Program Files\Sublime Merge\CalenPDF\CalenPDF\obj\Debug\net6.0-windows\CalenPDF.csproj.Up2Date
