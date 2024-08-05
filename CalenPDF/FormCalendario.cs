@@ -190,7 +190,7 @@ namespace CalenPDF
         {
             if (DateTime.TryParse(periodo, out DateTime fecha))
             {
-                return fecha.ToString("MMM-yy", CultureInfo.InvariantCulture).ToLower();
+                return fecha.ToString("MMM-yy", new CultureInfo("es-ES")).ToLower();
             }
             return string.Empty;
         }
@@ -199,7 +199,7 @@ namespace CalenPDF
         {
             if (DateTime.TryParse(vencimiento, out DateTime fecha))
             {
-                return fecha.ToString("dd-MMM", CultureInfo.InvariantCulture).ToLower();
+                return fecha.ToString("dd-MMM", new CultureInfo("es-ES")).ToLower();
             }
             return string.Empty;
         }
