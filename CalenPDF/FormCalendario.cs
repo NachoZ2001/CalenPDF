@@ -103,7 +103,7 @@ namespace CalenPDF
             }
             else if (input == "Sicore DD.JJ")
             {
-                return "Sicore";
+                return "Sicore DD.JJ";
             }
             else if (input == "Sipres - 1ºQ")
             {

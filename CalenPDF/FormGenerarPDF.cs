@@ -73,13 +73,26 @@ namespace CalenPDF
             }
 
             // Define the output PDF file path
-            string pdfFolder = Path.Combine(Path.GetDirectoryName(excelFilePath), "PDF");
+            string pdfFolder = Path.Combine(textBoxRuta.Text, "PDF");
             Directory.CreateDirectory(pdfFolder); // Create the PDF folder if it doesn't exist
             string pdfFileName = Path.GetFileNameWithoutExtension(excelFilePath) + ".pdf";
             string pdfFilePath = Path.Combine(pdfFolder, pdfFileName);
 
             // Save the Excel file as PDF
             workbook.SaveToFile(pdfFilePath, Spire.Xls.FileFormat.PDF);
+        }
+
+        private void buttonRuta_Click(object sender, EventArgs e)
+        {
+            using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
+            {
+                folderDialog.Description = "Seleccione la carpeta donde se guardarán los archivos PDF";
+
+                if (folderDialog.ShowDialog() == DialogResult.OK)
+                {
+                    textBoxRuta.Text = folderDialog.SelectedPath; // Asigna la ruta seleccionada al TextBox
+                }
+            }
         }
     }
 }
